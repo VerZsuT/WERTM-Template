@@ -1,12 +1,14 @@
 import { contextBridge } from 'electron'
+import { provideFromMain } from 'emr-bridge/preload'
+
+provideFromMain()
 
 export interface IPreload {
-    helloRenderer: string
+  textFromPreload: string
 }
 
 const preload: IPreload = {
-    helloRenderer: 'Hello Renderer!'
+  textFromPreload: 'Hello from preload!'
 }
 
-// Gives access to the preload from the renderer process [window.preload]
 contextBridge.exposeInMainWorld('preload', preload)

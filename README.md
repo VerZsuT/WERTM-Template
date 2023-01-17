@@ -2,14 +2,14 @@
 
 Webpack-Electron-React-Typescript-MUI template
 
-- Webpack v5.37
-- Electron v17.1.2
-- Typescript v4.6.2
-- React v17.0.2
-- Babel v7.17.8
-- Material UI v5.5.2
-- Electron-Forge v6.0.0
-- Hot-reloading
+- Webpack v5.69
+- Electron v22.0.2
+- Typescript v4.9.4
+- React v18.2.0
+- Babel v7.20.12
+- Material UI v5.11.4
+- Electron-Forge v6.0.4
+- Hot reload
 
 First, install the dependencies
 
@@ -23,7 +23,7 @@ To start the live server, use
 npm run start
 ```
 
-For packaging
+For package application
 
 ```npm
 npm run package

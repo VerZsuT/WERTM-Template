@@ -9,6 +9,7 @@
     "isolatedModules": true,
     "module": "esnext",
     "pretty": true,
+    "strict": true,
     "allowSyntheticDefaultImports": true,
     "allowUnreachableCode": false,
     "esModuleInterop": true,
